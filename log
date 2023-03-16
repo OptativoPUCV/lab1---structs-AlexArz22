@@ -280,3 +280,9 @@ Thu 16 Mar 2023 10:42:56 PM UTC:
  tests:  8|0
 total_score: 70/70
 b4eb32d
+Thu 16 Mar 2023 10:54:23 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+ tests:  8|0
+total_score: 70/70
+53a19ad
