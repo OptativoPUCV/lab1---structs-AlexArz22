@@ -57,3 +57,14 @@ Thu 16 Mar 2023 08:34:01 PM UTC:
  tests:  3|4
 total_score: 30/70
 6574567
+Thu 16 Mar 2023 08:35:35 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:88:5: error: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+   88 |     scanf("%i",&arreglo[i].capacidad);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+772a1fc
