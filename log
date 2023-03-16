@@ -257,3 +257,14 @@ exercises.c:85:20: error: ‘vector’ is used uninitialized [-Werror=uninitiali
 cc1: all warnings being treated as errors
 Compilation failed
 e8c9ff2
+Thu 16 Mar 2023 10:38:11 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+test.c: In function ‘crearVector’:
+exercises.c:85:16: error: ‘vector’ is used uninitialized [-Werror=uninitialized]
+   85 |   vector->datos=(int *) calloc(n, sizeof(int));
+      |   ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+eccf9fb
