@@ -85,7 +85,7 @@ Vector * crearVector(int n) {
   if(arreglo==NULL) exit(EXIT_FAILURE);
 
   for(int i=0; i<n; i++){
-    scanf("%i",&arreglo[i].capacidad);
+    arreglo[i].capacidad=n;
     arreglo[i].datos=(int *) calloc(arreglo[i].capacidad,sizeof(int));
     if(arreglo[i].datos==NULL) exit(EXIT_FAILURE);
   }
