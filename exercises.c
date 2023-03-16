@@ -58,11 +58,11 @@ typedef struct {
 Persona* crearPersona(char nombre[], char rut[], int edad) {
   Persona * p = (Persona *) malloc(sizeof(Persona));
   //asignar valores de entrada a los campos de p
-  char nombres[30] = "JUAN";
+  char nombres[30] = "Ignacio";
   strcpy(p->nombre, nombres); 
-  char ruts[11]="12569153-8";
+  char ruts[11]="15489XXX-2";
   strcpy(p->rut, ruts); 
-  p->edad=20;
+  p->edad=38;
   return p;
 }
 
