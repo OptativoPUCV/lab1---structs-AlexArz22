@@ -240,3 +240,9 @@ exercises.c:86:40: error: ‘vector’ is a pointer; did you mean to use ‘->�
       |                                        ->
 Compilation failed
 af7fceb
+Thu 16 Mar 2023 10:35:56 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  8|0
+total_score: 70/70
+df9650a
