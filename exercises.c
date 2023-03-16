@@ -80,7 +80,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+  Vector *arreglo;
+  arreglo=(Vector*) calloc(n,sizeof(Vector));
+  if(arreglo==NULL) exit(EXIT_FAILURE);
+  
+  return arreglo;
 }
 
 /*
