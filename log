@@ -229,3 +229,14 @@ Thu 16 Mar 2023 09:32:39 PM UTC:
  tests:  8|0
 total_score: 70/70
 3ec258b
+Thu 16 Mar 2023 10:35:35 PM UTC: 
+ exercises.c | 17 ++++++-----------
+ 1 file changed, 6 insertions(+), 11 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:86:40: error: ‘vector’ is a pointer; did you mean to use ‘->’?
+   86 |   vector[0].datos=(int *) calloc(vector.capacidad, sizeof(int));
+      |                                        ^
+      |                                        ->
+Compilation failed
+af7fceb
